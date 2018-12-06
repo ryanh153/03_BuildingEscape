@@ -1,0 +1,10 @@
+# ignore directories that are created from other files. 
+# in unreal many folders are just for speeding up testing
+# and are totally determined by your other files so they 
+# do not need to be tracked
+*/Build/*
+*/Binaries/*
+*/DreivedDataCache/*
+*/Intermediate/*
+*/Saved/*
+BuildingEscape/Content/StarterContent/*
